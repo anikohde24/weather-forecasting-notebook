@@ -1,6 +1,27 @@
-pandas
-numpy
-seaborn
-matplotlib
-scikit-learn
-#-e .
+Core data handling
+
+pandas (for data loading, manipulation, and preprocessing)
+numpy (numerical operations)
+Machine learning and modeling
+
+scikit-learn (models like Logistic Regression, Decision Tree, Random Forest, KNN, SVM, preprocessing utilities, and metrics)
+xgboost (gradient boosting models; optional but mentioned in the notebook)
+Visualization and EDA
+
+seaborn (statistical plots and enhanced visuals)
+matplotlib (base plotting)
+Model persistence and utilities
+
+joblib (saving and loading the trained model)
+Environment and workflow
+
+Python 3.x (a compatible version to match your notebook)
+Optional: jupyter or jupyterlab (to run the notebook)
+Optional for reproducibility and advanced features
+
+scikit-learn-extra or imbalanced-learn (if you need advanced sampling; not strictly required for the described workflow)
+pandas-profiling (optional, for deeper EDA, not required)
+lightgbm (alternative gradient boosting; if you experiment with it)
+Example minimal installation (pip)
+
+pip install pandas numpy scikit-learn xgboost seaborn matplotlib joblib jupyter
